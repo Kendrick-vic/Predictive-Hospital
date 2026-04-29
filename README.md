@@ -1,14 +1,38 @@
-# Predictive-Hospital
+# Hospital Admission Forecasting using SARIMA Forecasting Model
 We are building a data analyst solution to forecast hospital resources allocation, addressing real-world challenges such as overcrowding, bed shortage, and inefficient staff utilization through data driven insights and interactive dashboard. 
+
+# Problem Statement
+Hospital data forecasting enables healthcare systems to anticipate patient demand, optimize resource allocation, and improve overall service delivery. By analyzing historical trends, hospitals can predict future admissions, manage staff scheduling more efficiently, and ensure the availability of critical resources such as beds and medical supplies. This proactive approach reduces overcrowding, minimizes wait times, and supports better clinical decision-making. Ultimately, forecasting enhances operational efficiency and helps deliver timely, high-quality patient care.
 
 ## Overview
 This project repository is used to store and manage files for analyzing hospital patients data.
 It supports collaboration using Git and GitHub.
 
 ## Objectives
-- Analyze hospital data
+- To forecast daily hospital admissions using time-series analysis (SARIMA)
 - Clean and organize hospital data
 - Generate insights for decision-making
+
+</> Markdown
+## Dataset
+**Souce:** Synthetic dataset created for time-series forecasting practice
+**Access:** [View dataset](https://docs.google.com/spreadsheets/d/1F8YbWkqpu282zeTUmYgBTCQgeovWWVho/edit?usp=drive_link&ouid=101342511537791973894&rtpof=true&sd=true)
+
+Number of records: 91
+
+</> Markdown
+Variables:
+- date: Daily timestamp of hospital records
+- daily_admissions: Number of patients admitted per day
+- daily_discharges: Number of patients discharged per day
+- bed_occupancy: Total occupied hospital beds
+- is_holiday: Indicator for public holidays (1 = Yes, 0 = No)
+
+## Methodology
+- Data cleaning
+- Stationarity test(ADF)
+- ACF/PACF
+- Model Selection
 
 ## Folder Structure
 - data/ : Contains raw and processed datasets
@@ -23,3 +47,7 @@ It supports collaboration using Git and GitHub.
 ## Collaboration Guidelines
 - All changes should be committed with clear commit messages
 - Pull requests should be used for major changes
+
+
+
+
