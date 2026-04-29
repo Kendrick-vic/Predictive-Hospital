@@ -39,7 +39,7 @@ Variables:
 - Data cleaning
 - Stationarity test(ADF)
 - ACF/PACF
-- Model Selection
+- Model Selection: SARIMA
 
 ## Folder Structure
 - data/ : Contains raw and processed datasets
