@@ -2,8 +2,16 @@
 We are building a data analyst solution to forecast hospital resources allocation, addressing real-world challenges such as overcrowding, bed shortage, and inefficient staff utilization through data driven insights and interactive dashboard. 
 
 # Problem Statement
-Hospital data forecasting enables healthcare systems to anticipate patient demand, optimize resource allocation, and improve overall service delivery. By analyzing historical trends, hospitals can predict future admissions, manage staff scheduling more efficiently, and ensure the availability of critical resources such as beds and medical supplies. This proactive approach reduces overcrowding, minimizes wait times, and supports better clinical decision-making. Ultimately, forecasting enhances operational efficiency and helps deliver timely, high-quality patient care.
-
+Healthcare systems generate large amounts of data daily, including patient admissions and bed usage.
+Many hospitals still rely on reactive decisions instead of data-driven planning.
+This often leads to overcrowding, resource shortages, or underutilization.
+Poor planning can reduce the quality of patient care.
+Forecasting hospital data helps predict future demand.
+It allows better allocation of staff, beds, and medical resources.
+It is especially important during peak periods like disease outbreaks.
+Accurate forecasts improve hospital efficiency and operations.
+They also support better patient outcomes and service delivery.
+This project uses historical data to provide predictive insights for better decision-making.
 ## Overview
 This project repository is used to store and manage files for analyzing hospital patients data.
 It supports collaboration using Git and GitHub.
@@ -13,14 +21,13 @@ It supports collaboration using Git and GitHub.
 - Clean and organize hospital data
 - Generate insights for decision-making
 
-</> Markdown
 ## Dataset
 **Souce:** Synthetic dataset created for time-series forecasting practice
+
 **Access:** [View dataset](https://docs.google.com/spreadsheets/d/1F8YbWkqpu282zeTUmYgBTCQgeovWWVho/edit?usp=drive_link&ouid=101342511537791973894&rtpof=true&sd=true)
 
 Number of records: 91
 
-</> Markdown
 Variables:
 - date: Daily timestamp of hospital records
 - daily_admissions: Number of patients admitted per day
