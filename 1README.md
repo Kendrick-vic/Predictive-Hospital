@@ -111,6 +111,7 @@ The model was used to forecast hospital admissions for the next 14 days.
 
 * MAE: 14.5 
 * RMSE: 19.20
+
 The model’s predictions deviate from actual values by an average of approximately 14–15 patients per day. The higher RMSE indicates the presence of occasional larger prediction errors, which is expected due to fluctuations in hospital demand.
 
 ---
