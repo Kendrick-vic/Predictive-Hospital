@@ -102,7 +102,7 @@ This model captures:
 
 The model was used to forecast hospital admissions for the next 14 days.
 
-![Forecast Plot](Downloads/forecast.png)
+![Forecast Plot](images/forecast.png)
 ---
 
 ## 📉 Model Performance
