@@ -117,6 +117,8 @@ The higher RMSE (19.20) compared to MAE suggests that while most predictions are
 
 Despite these variations, the model successfully captures the underlying weekly seasonal pattern and provides reliable short-term forecasts, making it useful for resource planning and decision-making.
 
+Comparison of actual vs forecasted hospital admissions showing model performance.
+
 ![Model Performance](images/ModelPerformance.png)
 
 ---
