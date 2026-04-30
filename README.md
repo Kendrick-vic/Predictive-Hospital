@@ -12,9 +12,11 @@ It is especially important during peak periods like disease outbreaks.
 Accurate forecasts improve hospital efficiency and operations.
 They also support better patient outcomes and service delivery.
 This project uses historical data to provide predictive insights for better decision-making.
-## Overview
-This project repository is used to store and manage files for analyzing hospital patients data.
-It supports collaboration using Git and GitHub.
+
+## Project Overview
+
+This project uses SARIMA time-series modeling to forecast daily hospital admissions.
+Accurate forecasting helps hospitals plan staffing, manage bed occupancy, and improve resource allocation.
 
 ## Objectives
 - To forecast daily hospital admissions using time-series analysis (SARIMA)
