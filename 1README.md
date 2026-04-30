@@ -107,7 +107,6 @@ The model was used to forecast hospital admissions for the next 14 days.
 
 ## 📉 Model Performance
 
-*(Update after evaluation)*
 
 * MAE: 14.5 
 * RMSE: 19.20
