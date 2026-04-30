@@ -108,10 +108,14 @@ The model was used to forecast hospital admissions for the next 14 days.
 ## 📉 Model Performance
 
 
-* MAE: 14.5 
-* RMSE: 19.20
+- MAE: 10.32  
+- RMSE: 19.20  
 
-The model’s predictions deviate from actual values by an average of approximately 14–15 patients per day. The higher RMSE indicates the presence of occasional larger prediction errors, which is expected due to fluctuations in hospital demand.
+The model achieves a Mean Absolute Error (MAE) of 10.32, meaning predictions are, on average, within ±10 patients of actual daily admissions. This level of accuracy is acceptable for operational planning in a hospital setting.
+
+The higher RMSE (19.20) compared to MAE suggests that while most predictions are close to actual values, there are occasional larger errors. These deviations likely result from irregular spikes in hospital demand, which are difficult to capture using classical time-series models.
+
+Despite these variations, the model successfully captures the underlying weekly seasonal pattern and provides reliable short-term forecasts, making it useful for resource planning and decision-making.
 
 ---
 
