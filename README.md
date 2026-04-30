@@ -130,7 +130,7 @@ Despite these variations, the model successfully captures the underlying weekly 
 
 ---
 
-## 🏥 Practical Implications
+## 🏥 Buisness Impact or Pratical Implication
 
 * Enables hospitals to **anticipate patient inflow**
 * Supports **better staff scheduling**
