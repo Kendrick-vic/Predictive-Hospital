@@ -70,7 +70,7 @@ Variables:
 - The model successfully captured weekly seasonal patterns in hospital admissions.
 - Forecasts showed stable and predictable short-term trends.
 - The model is suitable for predicting hospital admissions over a 14-day horizon.
-## Pratical Implications
+## Pratical Implications (Business Impact)
 - Hospitals can use the model to anticipate daily patient inflow.
 - Helps in staff scheduling and resource allocation.
 - Supports better planning for bed occupancy and patient management.
