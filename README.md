@@ -43,6 +43,44 @@ Variables:
 - ACF/PACF
 - Model Selection: SARIMA
 
+
+</> Markdown
+## **KEY INSIGHTS AND RESULTS**
+## Data & Pattern Insights
+- The dataset contains daily hospital records over a 3-month period.
+- A clear weekly pattern (7-day cycle) was observed in hospital admissions.
+- Admissions tend to fluctuate based on weekday vs weekend effects, indicating strong seasonality.
+## Stationarity Findings
+- Augmented Dickey-Fuller (ADF) test showed the original series is stationary (p < 0.05).
+- Therefore, no non-seasonal differencing was required (d = 0).
+- Seasonal differencing at lag 7 was applied to remove weekly seasonality.
+- The seasonally differenced series was confirmed stationary (p < 0.05), hence D = 1.
+## ACF & PACF Analysis
+- ACF and PACF plots showed no strong significant spikes outside the confidence intervals.
+- This indicates weak autoregressive (AR) and moving average (MA) components.
+- Both seasonal and non-seasonal lag effects were minimal.
+## Model Selection
+- Based on stationarity tests and ACF/PACF analysis, a SARIMA model was selected.
+- Final model used: SARIMA (1,0,1)(1,1,1,7)
+- The model accounts for:
+  - No trend differencing (d = 0)
+  - Weekly seasonality (s = 7)
+  - Seasonal differencing (D = 1)
+## Forecasting Results
+- The model successfully captured weekly seasonal patterns in hospital admissions.
+- Forecasts showed stable and predictable short-term trends.
+- The model is suitable for predicting hospital admissions over a 14-day horizon.
+## Pratical Implications
+- Hospitals can use the model to anticipate daily patient inflow.
+- Helps in staff scheduling and resource allocation.
+- Supports better planning for bed occupancy and patient management.
+## Model Summary
+- Model Type: SARIMA
+- Order: (1, 0, 1)
+- Seasonal Order: (1, 1, 1, 7)
+- Forecast Horizon: 14 days
+
+
 ## Folder Structure
 - data/ : Contains raw and processed datasets
 - notebooks/ : Analysis notebooks
